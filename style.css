@@ -1,0 +1,104 @@
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+* {
+    margin: auto;
+    padding: auto;
+    background-image: url(bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+nav {
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 152px;
+    height: 100px;
+    margin-right: 520px;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+li {
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #C5AF8D;
+    align-items: center;
+}
+.blackmyth h2 {
+    color: white;
+    font-size: 64px;
+    font-family: Inknut Antiqua;
+    margin-left: 152px;
+    margin-top: 100px;
+}
+
+.wukong h1 {
+    color: white;
+    font-size: 96px;
+    font-family: Inknut Antiqua;
+    margin-left: 152px;
+    margin-top: -30px;
+}
+
+.info p {
+    color: #ffffff;
+    margin-left: 112px;
+    text-align: center;
+    vertical-align: text-top;
+    font-size: 20px;
+    font-family: Inknut Antiqua;
+    line-height: auto;
+    border-style: hidden;
+    outline: none;
+    width: 530px;
+}
+ul li .active{
+    color: #624e30;
+    text-decoration: underline;  
+}
+ul li a:hover{
+    color: #624e30 ;
+}
+.buy{
+    color: #ffffff;
+    background-color: #C5AF8D;
+    height: 89px;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 50px;
+    width: 211px;
+    border-radius: 30px;
+    margin-left: 262px;
+    margin-top: 20px;
+}
+.star img{
+    width: 100px;
+    margin-left: 312px;
+    margin-top: 20.5px;
+}
+.star h4{
+    color: rgb(197, 175, 141);
+    width: 100px;
+    margin-left: 335px;
+    margin-top: -40px;
+}
+footer ul {
+    margin-top: 120px;
+    margin-left: 1235px;
+    gap: 1px;
+}
